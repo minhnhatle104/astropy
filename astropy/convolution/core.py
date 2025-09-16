@@ -70,7 +70,7 @@ class Kernel:
         If the kernel is bool the multiplication in the convolution could
         be omitted, to increase the performance.
         """
-        return self._is_bool
+        return self._is_bo
 
     @property
     def model(self):
